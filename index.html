@@ -1,17 +1,324 @@
+
+<!--This is a solution for task (https://www.coursera.org/learn/tonkosti-verstki/peer/tu76K/miandieks-murrrkiet) from Coursera Course named Details of Webpage Slicing-->
+
+<!DOCTYPE html>
 <html>
   <head>
     <title>Fake Cat's Shop</title>
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <img id="logo" src="/images/logo.jpg" alt="It's a cat with crown on his head">
+      <img src="./images/logo-1.jpg" alt="Shop's logo" id="logo">
       <h1 id="shop-title">Welcome to the Grandmother Cat's Shop</h1>
     </header>
-    <section>
-    </section>
+<main>
+          <input id="tiles" class="switch" type="radio" name="switch-view" checked></input>
+          <label for="tiles" class="switch-view"><i class="fa fa-th-large"></i></label>
+          <input id="table" class="switch" type="radio" name="switch-view"></input>
+          <label for="table" class="switch-view"><i class="fa fa-th-list"></i></label>
+      <div class="shop-items">
+        <div class="cat-card">
+          <div class="cat-image">
+            <img src="./images/cat-1.jpeg" alt="ginger and white cat">
+          </div>
+          <div class="cat-description">
+            <h3><a href="#" class="cat-name">Peterbald is a strong cat who knows how to stand for himself</a></h3>
+            <div class="cat-category">
+              <a href="#">Mongrel</a>
+              <a href="#">Suitable for Children</a>
+              <a href="#">Gelding</a>
+            </div>
+            <div class="rating">
+              <input id="star1-cat1" type="radio" name="radio-cat1"></input>
+              <label for="star1-cat1" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star2-cat1" type="radio" name="radio-cat1"></input>
+              <label for="star2-cat1" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star3-cat1" type="radio" name="radio-cat1"></input>
+              <label for="star3-cat1" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star4-cat1" type="radio" name="radio-cat1"></input>
+              <label for="star4-cat1" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star5-cat1" type="radio" name="radio-cat1"></input>
+              <label for="star5-cat1" class="stars"><i class="fa fa-star"></i></label>
+            </div>
+            <div class="prices">
+              <span class="new-price">$399</span>
+              <span class="old-price">$699</span>
+            </div>
+        </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie risus sollicitudin orci mollis, sit amet viverra purus faucibus. Sed lobortis non ex eu euismod. Morbi dapibus semper aliquam. Proin venenatis vel ex eget cursus. Proin arcu nisl, vehicula ut laoreet vestibulum, eleifend hendrerit lectus. Sed sed velit maximus, mollis dui ac, facilisis turpis. In pellentesque luctus lacus, luctus maximus leo. Vestibulum nec vulputate tellus, ac finibus tortor. Nunc quis dictum nisi. Maecenas sit amet faucibus ipsum. Vestibulum a neque purus. Pellentesque egestas lacus et porttitor tincidunt. Aenean eu tortor sed dolor mollis ultrices.</p>
+        </div>
+        <div class="cat-card">
+          <div class="cat-image">
+            <img src="./images/cat-2.jpeg" alt="brown tortoiseshell female cat">
+          </div>
+          <div class="cat-description">
+            <h3><a href="#" class="cat-name">Millie is a tender kitty, full of love and tenderness</a></h3>
+            <div class="cat-category">
+              <a href="#">Maine Coon</a>
+              <a href="#">Suitable for Children</a>
+              <a href="#">Gelding</a>
+            </div>
+            <div class="rating">
+              <input id="star1-cat2" type="radio" name="radio-cat2"></input>
+              <label for="star1-cat2" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star2-cat2" type="radio" name="radio-cat2"></input>
+              <label for="star2-cat2" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star3-cat2" type="radio" name="radio-cat2"></input>
+              <label for="star3-cat2" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star4-cat12" type="radio" name="radio-cat2"></input>
+              <label for="star4-cat2" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star5-cat2" type="radio" name="radio-cat2"></input>
+              <label for="star5-cat2" class="stars"><i class="fa fa-star"></i></label>
+            </div>
+            <div class="prices">
+              <span class="new-price">$599</span>
+              <span class="old-price">$899</span>
+          </div>
+        </div>
+          <p>Nullam rutrum tincidunt arcu sit amet varius. Aliquam vestibulum ligula et lacus suscipit venenatis. Integer aliquet eget ipsum ut ultrices. Nullam semper massa felis, ut dapibus eros venenatis quis. Morbi sodales tempor felis. Donec quis convallis velit. Nullam id lectus quis dui pulvinar commodo. Nullam blandit ornare felis accumsan dapibus. Suspendisse eget justo ut sapien suscipit pulvinar. Aliquam tristique purus quam, eget pellentesque metus gravida id. Nulla porttitor tristique ex egestas tempor. Duis viverra vitae ipsum quis tristique.</p>
+        </div>
+        <div class="cat-card">
+          <div class="cat-image">
+            <img src="./images/cat-3.jpeg" alt="brown tortoiseshell male cat">
+          </div>
+          <div class="cat-description">
+            <h3><a href="#" class="cat-name">Sassy is a bully cat, loving to play with others</a></h3>
+            <div class="cat-category">
+              <a href="#">Mongrel</a>
+              <a href="#">Not Suitable for Children</a>
+            </div>
+            <div class="rating">
+              <input id="star1-cat3" type="radio" name="radio-cat3"></input>
+              <label for="star1-cat3" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star2-cat3" type="radio" name="radio-cat3"></input>
+              <label for="star2-cat3" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star3-cat3" type="radio" name="radio-cat3"></input>
+              <label for="star3-cat3" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star4-cat13" type="radio" name="radio-cat3"></input>
+              <label for="star4-cat3" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star5-cat3" type="radio" name="radio-cat3"></input>
+              <label for="star5-cat3" class="stars"><i class="fa fa-star"></i></label>
+            </div>
+            <div class="prices">
+              <span class="new-price">$299</span>
+              <span class="old-price">$499</span>
+            </div>
+          </div>
+          <p>Sed nisl leo, pretium eu sodales in, posuere at lacus. Phasellus ut nibh sed felis accumsan molestie ac elementum lacus. Quisque turpis mauris, lacinia vitae tortor sed, congue egestas purus. Maecenas maximus, neque a scelerisque hendrerit, metus magna dictum lectus, vitae euismod metus sem vitae lectus. Ut luctus pulvinar dui auctor luctus. Aliquam eu ligula ultrices, dapibus risus in, sollicitudin ex. Donec placerat quam vitae magna volutpat, sagittis scelerisque lorem lobortis. Mauris mollis auctor ipsum vitae fringilla. Sed quis sem lorem.</p>
+        </div>
+        <div class="cat-card">
+          <div class="cat-image">
+            <img src="./images/cat-4.jpeg" alt="white furry  female cat with blue eyes">
+          </div>
+          <div class="cat-description">
+            <h3><a href="#" class="cat-name">Princess is proud and capricious cat</a></h3>
+            <div class="cat-category">
+              <a href="#">Persian Cat</a>
+              <a href="#">Suitable for Children</a>
+              <a href="#">Gelding</a>
+            </div>
+            <div class="rating">
+              <input id="star1-cat4" type="radio" name="radio-cat4"></input>
+              <label for="star1-cat4" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star2-cat4" type="radio" name="radio-cat4"></input>
+              <label for="star2-cat4" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star3-cat4" type="radio" name="radio-cat4"></input>
+              <label for="star3-cat4" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star4-cat4" type="radio" name="radio-cat4"></input>
+              <label for="star4-cat4" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star5-cat4" type="radio" name="radio-cat4"></input>
+              <label for="star5-cat4" class="stars"><i class="fa fa-star"></i></label>
+            </div>
+            <div class="prices">
+              <span class="new-price">$699</span>
+              <span class="old-price">$999</span>
+            </div>
+          </div>
+          <p>Pellentesque nec gravida ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum eleifend lacinia. Duis sit amet urna ac erat convallis gravida vel non libero. Maecenas elementum tempor volutpat. Sed eget purus eget justo scelerisque aliquet. Phasellus eu efficitur urna. Morbi iaculis, felis et fringilla aliquet, quam ante varius urna, ut porttitor felis felis in turpis. Nam vestibulum fermentum dui, semper tempor sapien euismod et. Mauris at massa in ante congue egestas.</p>
+        </div>
+        <div class="cat-card">
+          <div class="cat-image">
+            <img src="./images/cat-5.jpeg" alt="gray and white cat">
+          </div>
+          <div class="cat-description">
+            <h3><a href="#" class="cat-name">Chloe - a gentle kitty</a></h3>
+            <div class="cat-category">
+              <a href="#">Scottish Fold</a>
+              <a href="#">Suitable for Children</a>
+            </div>
+            <div class="rating">
+              <input id="star1-cat5" type="radio" name="radio-cat5"></input>
+              <label for="star1-cat5" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star2-cat5" type="radio" name="radio-cat5"></input>
+              <label for="star2-cat5" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star3-cat5" type="radio" name="radio-cat5"></input>
+              <label for="star3-cat5" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star4-cat5" type="radio" name="radio-cat5"></input>
+              <label for="star4-cat5" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star5-cat5" type="radio" name="radio-cat5"></input>
+              <label for="star5-cat5" class="stars"><i class="fa fa-star"></i></label>
+            </div>
+            <div class="prices">
+              <span class="new-price">$999</span>
+              <span class="old-price">$1499</span>
+            </div>
+          </div>
+          <p>Aliquam erat volutpat. Nulla iaculis interdum sapien, vitae accumsan sem luctus nec. Nullam sed lobortis sapien. Nam vitae mollis quam, quis maximus neque. Fusce eget leo sed ligula elementum efficitur non id neque. Fusce scelerisque ligula vel justo ultricies viverra. Pellentesque tincidunt elementum condimentum. Curabitur ut eros vulputate, luctus ante ut, imperdiet mauris. Nam pulvinar, nulla vel iaculis congue, dui neque ornare augue, vel fermentum tortor nisi at elit. Suspendisse potenti. Suspendisse eu erat pellentesque, ornare felis vehicula, varius lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+        </div><div class="cat-card">
+          <div class="cat-image">
+            <img src="./images/cat-6.jpeg" alt="ginger and white cat">
+          </div>
+          <div class="cat-description">
+            <h3><a href="#" class="cat-name">Angel is a cheerful skittish young cat</a></h3>
+            <div class="cat-category">
+              <a href="#">Turkish Angora</a>
+              <a href="#">Suitable for Children</a>
+            </div>
+            <div class="rating">
+              <input id="star1-cat6" type="radio" name="radio-cat6"></input>
+              <label for="star1-cat6" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star2-cat6" type="radio" name="radio-cat6"></input>
+              <label for="star2-cat6" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star3-cat6" type="radio" name="radio-cat6"></input>
+              <label for="star3-cat6" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star4-cat6" type="radio" name="radio-cat6"></input>
+              <label for="star4-cat6" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star5-cat6" type="radio" name="radio-cat6"></input>
+              <label for="star5-cat6" class="stars"><i class="fa fa-star"></i></label>
+            </div>
+            <div class="prices">
+              <span class="new-price">$899</span>
+              <span class="old-price">$1199</span>
+            </div>
+        </div>
+          <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce dignissim accumsan ipsum ac auctor. Phasellus velit sapien, fringilla in lectus ac, vulputate viverra velit. Nulla at sem vel dolor scelerisque ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in nisi ante. Sed vel fringilla eros, nec molestie sem. Donec elementum vel augue eu finibus. Praesent ultrices nunc sit amet risus faucibus, vitae ornare ex tempor. Morbi mauris augue, pulvinar in ipsum vel, maximus dignissim mauris. Mauris congue, neque sit amet imperdiet viverra, risus purus laoreet leo, et cursus felis metus sit amet ipsum. Sed in justo non ipsum aliquet interdum at eu nisl. Nam aliquam eu ipsum nec posuere. Ut ac nibh non ante congue commodo.</p>
+        </div>
+        <div class="cat-card">
+          <div class="cat-image">
+            <img src="./images/cat-7.jpeg" alt="white cat">
+          </div>
+          <div class="cat-description">
+            <h3><a href="#" class="cat-name">Misty is a very loving female kitty who loves children</a></h3>
+            <div class="cat-category">
+              <a href="#">European shorthair cat</a>
+              <a href="#">Suitable for Children</a>
+              <a href="#">Kitty female</a>
+            </div>
+            <div class="rating">
+              <input id="star1-cat7" type="radio" name="radio-cat7"></input>
+              <label for="star1-cat7" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star2-cat7" type="radio" name="radio-cat7"></input>
+              <label for="star2-cat7" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star3-cat7" type="radio" name="radio-cat7"></input>
+              <label for="star3-cat7" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star4-cat7" type="radio" name="radio-cat7"></input>
+              <label for="star4-cat7" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star5-cat7" type="radio" name="radio-cat7"></input>
+              <label for="star5-cat7" class="stars"><i class="fa fa-star"></i></label>
+            </div>
+            <div class="prices">
+              <span class="new-price">$799</span>
+              <span class="old-price">$1099</span>
+            </div>
+          </div>
+          <p>Quisque faucibus facilisis posuere. Phasellus at enim eget sapien condimentum vulputate. Vestibulum convallis ultrices orci at feugiat. Suspendisse a metus id odio maximus pulvinar vel vitae ante. Pellentesque a felis egestas, venenatis nulla et, condimentum enim. Duis aliquet, ipsum eget sollicitudin viverra, quam odio hendrerit nibh, eget pretium urna ex in orci. Phasellus fermentum elementum sem, a molestie odio rhoncus ut. Nam ultricies urna at malesuada tempus. Suspendisse hendrerit congue odio. Proin sed tortor velit. Nunc a ultrices ex. Aliquam porttitor ut ipsum sit amet aliquet. Pellentesque nec nunc enim.</p>
+        </div>
+        <div class="cat-card">
+          <div class="cat-image">
+            <img src="./images/cat-8.jpeg" alt="gray and white cat">
+          </div>
+          <div class="cat-description">
+            <h3><a href="#" class="cat-name">Oscar is a serious young male cat who loves sleep</a></h3>
+            <div class="cat-category">
+              <a href="#">Mongrel</a>
+              <a href="#">Not Suitable for Children</a>
+              <a href="#">Gelding</a>
+            </div>
+            <div class="rating">
+              <input id="star1-cat8" type="radio" name="radio-cat8"></input>
+              <label for="star1-cat8" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star2-cat8" type="radio" name="radio-cat8"></input>
+              <label for="star2-cat8" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star3-cat8" type="radio" name="radio-cat8"></input>
+              <label for="star3-cat8" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star4-cat8" type="radio" name="radio-cat8"></input>
+              <label for="star4-cat8" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star5-cat8" type="radio" name="radio-cat8"></input>
+              <label for="star5-cat8" class="stars"><i class="fa fa-star"></i></label>
+            </div>
+            <div class="prices">
+              <span class="new-price">$399</span>
+              <span class="old-price">$699</span>
+            </div>
+        </div>
+          <p>Praesent eu volutpat velit, in faucibus nisl. Mauris tortor neque, scelerisque eget porta in, faucibus vitae dolor. Donec vel congue odio, in rhoncus erat. Aenean sit amet rhoncus lorem, ac tincidunt sem. Donec non laoreet augue, id semper ex. Duis eu commodo erat. Curabitur ac porta lectus, venenatis fermentum lorem.</p>
+        </div>
+        <div class="cat-card">
+          <div class="cat-image">
+            <img src="./images/cat-9.jpeg" alt="black and white striped cat">
+          </div>
+          <div class="cat-description">
+            <h3><a href="#" class="cat-name">Maggie is  is a sweet, tender girl who loves caring and love</a></h3>
+            <div class="cat-category">
+              <a href="#">Mongrel</a>
+              <a href="#">Suitable for Children</a>
+              <a href="#">Gelding</a>
+            </div>
+            <div class="rating">
+              <input id="star1-cat9" type="radio" name="radio-cat9"></input>
+              <label for="star1-cat9" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star2-cat9" type="radio" name="radio-cat9"></input>
+              <label for="star2-cat9" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star3-cat9" type="radio" name="radio-cat9"></input>
+              <label for="star3-cat9" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star4-cat9" type="radio" name="radio-cat9"></input>
+              <label for="star4-cat9" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star5-cat9" type="radio" name="radio-cat9"></input>
+              <label for="star5-cat9" class="stars"><i class="fa fa-star"></i></label>
+            </div>
+            <div class="prices">
+              <span class="new-price">$399</span>
+              <span class="old-price">$699</span>
+            </div>
+        </div>
+          <p>Suspendisse condimentum finibus condimentum. Vivamus condimentum quis arcu non pulvinar. In laoreet sollicitudin felis eu egestas. Proin ornare metus ac metus tincidunt consequat. Sed ornare mauris eget leo sagittis vulputate. Sed consectetur venenatis ante, sed volutpat leo dictum vitae. Vestibulum scelerisque, dolor eget vehicula vehicula, diam orci cursus lorem, quis aliquet est erat sed urna. Cras ullamcorper nisi sed nunc maximus condimentum. Etiam faucibus in turpis et vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet magna id quam bibendum efficitur. Nam sagittis pulvinar ante, at mollis arcu. Aliquam scelerisque nunc ligula, id varius augue volutpat a. Sed vitae consequat nibh, non mattis arcu. Sed in massa eget lacus pretium lobortis a at quam. Quisque a orci ex.</p>
+        </div>
+        <div class="cat-card">
+          <div class="cat-image">
+            <img src="./images/cat-10.jpeg" alt="black and white fluffy cat">
+          </div>
+          <div class="cat-description">
+            <h3><a href="#" class="cat-name">Sam is cheerful and playful male cat who brings you a lot of joy and love</a></h3>
+            <div class="cat-category">
+              <a href="#">Mongrel</a>
+              <a href="#">Suitable for Children</a>
+              <a href="#">Gelding</a>
+            </div>
+            <div class="rating">
+              <input id="star1-cat10" type="radio" name="radio-cat10"></input>
+              <label for="star1-cat10" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star2-cat10" type="radio" name="radio-cat10"></input>
+              <label for="star2-cat10" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star3-cat10" type="radio" name="radio-cat10"></input>
+              <label for="star3-cat10" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star4-cat10" type="radio" name="radio-cat10"></input>
+              <label for="star4-cat10" class="stars"><i class="fa fa-star"></i></label>
+              <input id="star5-cat10" type="radio" name="radio-cat10"></input>
+              <label for="star5-cat10" class="stars"><i class="fa fa-star"></i></label>
+            </div>
+            <div class="prices">
+              <span class="new-price">$399</span>
+              <span class="old-price">$599</span>
+            </div>
+          </div>
+          <p>Donec et tempor metus. Donec pharetra aliquet justo et volutpat. Sed varius, arcu sit amet convallis dignissim, nisi augue scelerisque nunc, maximus rutrum tortor elit quis mi. Nam nec vulputate turpis. Donec dignissim dignissim est, ut eleifend mi pellentesque vitae. Nulla facilisi. Morbi nec sem sagittis, pharetra dui porta, tristique nunc. In ac sapien ac mi euismod aliquet sed et mauris. Nunc sit amet volutpat dui.</p>
+        </div>
+      </div>
+    </main>
   <footer>
-    <span>2019 &copy;SvetlanKa</span>
+    <span>2019 &copy;SviatlanKa</span>
   </footer>
  </body>
 </html>
